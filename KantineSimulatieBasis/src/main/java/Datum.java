@@ -21,7 +21,10 @@ public class Datum {
 
 	public boolean bestaatDatum(int dag, int maand, int jaar) {
 		// TODO
-		return false;
+
+
+
+		
 	}
 
 	/**
@@ -59,4 +62,6 @@ public class Datum {
 		// TODO
 		return "";
 	}
+
+	
 }
