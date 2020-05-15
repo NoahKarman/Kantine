@@ -24,12 +24,12 @@ public class Persoon {
      * @param geslacht - het geslacht van de persoon
      */
 
-    public Persoon(int BSN, String voornaam, String achternaam, String geboortedatum, String geslacht) {
+    public Persoon(int BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
         this.BSN = BSN;
         Voornaam = voornaam;
         Achternaam = achternaam;
         Geboortedatum = geboortedatum;
-        Geslacht = getGeslacht();
+        Geslacht = geslacht;
     }
 
     public Persoon() {
