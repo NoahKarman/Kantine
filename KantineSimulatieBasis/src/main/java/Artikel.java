@@ -31,7 +31,8 @@ public class Artikel {
 
     public Artikel () {
 
-        System.out.println("Constructor called");
+        naam = "";
+        prijs = 0.00;
     }
 
     /**

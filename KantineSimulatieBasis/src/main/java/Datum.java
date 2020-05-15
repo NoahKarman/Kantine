@@ -1,3 +1,9 @@
+/**
+ * Een Datum klasse
+ *
+ * @author Redouan & Noah
+ * @version 15/5/2020
+ */
 public class Datum {
 
 	private int dag;
@@ -6,8 +12,11 @@ public class Datum {
 
 	/**
 	 * Constructor
+	 * @param dag - Dag van de maand
+	 * @param maand - Maand van het jaar
+	 * @param jaar - Jaar getaal tussen 1900 - 2100
 	 */
-	// TODO
+	
 	public Datum (int dag,int maand,int jaar){
 if (bestaatDatum(dag,maand,jaar)){
 		this.dag = dag;
@@ -26,6 +35,13 @@ if (bestaatDatum(dag,maand,jaar)){
 		this.jaar = 0;
 	}
 
+	/**
+	 *
+	 * @param dag - Dag van de maand
+	 * @param maand - Maand van het jaar
+	 * @param jaar - Jaar getaal tussen 1900 - 2100
+	 * @return - De gekozen correcte datum
+	 */
 	public boolean bestaatDatum(int dag, int maand, int jaar) {
 
 		// schikkeljaarCorrect gebruik je alleen in deze methode dus die plaats je niet boven als een variabelen.
@@ -59,7 +75,7 @@ if (bestaatDatum(dag,maand,jaar)){
 				}
 				break;
 				// 4 en 400 is well correct , en 100 niet
-			// Als het schikkeljaar is feb 29 dagen
+			// Als het schikkeljaar heeft de maand feb met 29 dagen
 			case 2:
 				if (jaar % 4 == 0 || jaar % 100!= 0 || jaar % 400 == 0 ){
 					schrikkeljaarCorrect = true;
