@@ -1,24 +1,41 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
-
+/**
+ * Een Dienblad klasse
+ *
+ * @author Noah Karman & Redouan Klick
+ * @version 15/5/2020
+ */
 public class Dienblad {
     private ArrayList<Artikel> artikelen;
-
+    private Artikel artikel ;
+    private Persoon persoon;
+    private int totalePrijs;
+    private String klant;
     /**
      * Constructor
+     * @param totalePrijs - het gehele prijs van alle artikelen op de dienblad
+     * @param klant - Het persoon die het dienblad afrekent
      */
     public Dienblad() {
         // method body omitted
+        totalePrijs = 0;
+    }
+
+    public Dienblad(int totalePrijs ,String klant ){
+        this.totalePrijs = totalePrijs;
+        this.klant = klant;
     }
 
     /**
      * Methode om artikel aan dienblad toe te voegen
      *
-     * @param artikel
+     * @param artikel - De artikel die op de dienblad terecht komt
      */
     public void voegToe(Artikel artikel) {
         // method body omitted
+        artikel.add(artikelen);
     }
 
     /**
@@ -27,7 +44,11 @@ public class Dienblad {
      * @return Het aantal artikelen
      */
     public int getAantalArtikelen() {
-        // method body omitted
+        if (artikel.size() <=0) {
+            System.out.println("Je hebt niks op je dienblad");
+        }else{
+            System.out.println("Op je dienblad heb je" + artikel + "artikelen");
+        }
     }
 
     /**
@@ -37,6 +58,8 @@ public class Dienblad {
      */
     public double getTotaalPrijs() {
         // method body omitted
+        totalePrijs = prijs;
+        return totalePrijs;
     }
 }
 
