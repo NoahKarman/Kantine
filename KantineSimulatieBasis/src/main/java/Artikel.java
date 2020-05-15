@@ -1,7 +1,7 @@
 /**
  * Een Artikel klasse
  *
- * @author noahk
+ * @author Noah Karman & Redouan Klick
  * @version 15/5/2020
  */
 
