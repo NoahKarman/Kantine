@@ -1,7 +1,7 @@
 /**
  * Een Persoon klasse
  * 
- * @author Noah Karman
+ * @author Redouan Klick & Noah Karman
  * @version 15/5/2020
  * 
  */
