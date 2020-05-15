@@ -34,10 +34,10 @@ public class Persoon {
 
     public Persoon() {
         this.BSN = 0;
-        Voornaam = "leeg";
-        Achternaam = "leeg";
+        Voornaam = "";
+        Achternaam = "";
         Geboortedatum = "dd/mm/jj";
-        Geslacht = 'L';
+        Geslacht = 'O';
     }
 
     /**
@@ -60,7 +60,7 @@ public class Persoon {
 
     /**
      * Stel de achternaam van de persoon in
-     * @param Achternaam
+     * @param Achternaam - Achternaam van de persoon
      */
     public void setAchternaam (String Achternaam) {
 
