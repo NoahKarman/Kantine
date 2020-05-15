@@ -2,7 +2,7 @@
  * Een Artikel klasse
  *
  * @author noahk
- * @date 15/5/2020
+ * @version 15/5/2020
  */
 
 public class Artikel {

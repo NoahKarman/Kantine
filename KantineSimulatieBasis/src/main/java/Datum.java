@@ -27,6 +27,7 @@ if (bestaatDatum(dag,maand,jaar)){
 	}
 
 	public boolean bestaatDatum(int dag, int maand, int jaar) {
+
 		// schikkeljaarCorrect gebruik je alleen in deze methode dus die plaats je niet boven als een variabelen.
 		boolean dagCorrect, maandCorrect , jaarCorrect , schrikkeljaarCorrect;
 		// Manden die eindigen op 31 dagen
@@ -128,4 +129,6 @@ if (bestaatDatum(dag,maand,jaar)){
 		// TODO
 		return "";
 	}
+
+	
 }
