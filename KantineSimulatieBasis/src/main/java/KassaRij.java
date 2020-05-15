@@ -1,22 +1,25 @@
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class KassaRij {
 
     /**
      * Constructor
      */
+    private final ArrayList<Dienblad> Dienbladen;
+    private Dienblad klant;
+
     public KassaRij() {
-        // method body omitted
+
+        this.Dienbladen = new ArrayList<>();
     }
 
     /**
      * Persoon sluit achter in de rij aan
      *
-     * @param klant
+     * @param klant - Een klant
      */
     public void sluitAchteraan(Dienblad klant) {
-        // method body omitted
+        Dienbladen.add(klant);
     }
 
     /**
@@ -26,7 +29,12 @@ public class KassaRij {
      * @return Eerste klant in de rij of null
      */
     public Dienblad eerstePersoonInRij() {
-        // method body omitted
+        if (!erIsEenRij()) {
+            return null;
+        } else {
+            Dienbladen.remove(0);
+            return Dienbladen.get(0);
+        }
     }
 
     /**
@@ -35,6 +43,11 @@ public class KassaRij {
      * @return Of er wel of geen rij bestaat
      */
     public boolean erIsEenRij() {
-        // method body omitted
+
+        if (Dienbladen.isEmpty()) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
