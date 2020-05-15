@@ -5,6 +5,8 @@ public class Kassa {
     /**
      * Constructor
      */
+    private Dienblad dienblad;
+
     public Kassa(KassaRij kassarij) {
         // method body omitted
     }
@@ -17,7 +19,8 @@ public class Kassa {
      * @param klant die moet afrekenen
      */
     public void rekenAf(Dienblad klant) {
-        // method body omitted
+        int totaalprijs = 0;
+
     }
 
     /**
