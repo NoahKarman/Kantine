@@ -142,8 +142,10 @@ if (bestaatDatum(dag,maand,jaar)){
 
 
 	public String getDatumAsString() {
-		// TODO
-		return "";
+		if (bestaatDatum(int dag, int maand, int jaar)) {
+			return dag + "" + maand + "" + jaar;
+		}
+
 	}
 
 	
