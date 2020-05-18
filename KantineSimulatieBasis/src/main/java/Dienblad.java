@@ -14,6 +14,7 @@ public class Dienblad {
     private Persoon persoon;
     private int totalePrijs;
     private String klant;
+
     /**
      * Constructor
      * @param totalePrijs - het gehele prijs van alle artikelen op de dienblad
@@ -44,7 +45,7 @@ public class Dienblad {
      * @return Het aantal artikelen
      */
     public int getAantalArtikelen() {
-        if (artikel.size() <=0) {
+        if (artikelen.size() <=0) {
             System.out.println("Je hebt niks op je dienblad");
         }else{
             System.out.println("Op je dienblad heb je" + artikel + "artikelen");
