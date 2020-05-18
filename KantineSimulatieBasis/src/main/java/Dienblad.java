@@ -13,7 +13,7 @@ public class Dienblad {
     private Artikel artikel ;
     private Persoon persoon;
     private int totalePrijs;
-    private String klant;
+    private Persoon klant;
 
     /**
      * Constructor
@@ -25,7 +25,7 @@ public class Dienblad {
         totalePrijs = 0;
     }
 
-    public Dienblad(int totalePrijs ,String klant ){
+    public Dienblad(int totalePrijs ,Persoon klant ){
         this.totalePrijs = totalePrijs;
         this.klant = klant;
     }
