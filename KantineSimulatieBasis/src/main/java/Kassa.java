@@ -19,7 +19,7 @@ public class Kassa {
      * @param klant die moet afrekenen
      */
     public void rekenAf(Dienblad klant) {
-        int totaalprijs = 0;
+        
 
     }
 

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
+import java.util.ArrayList;
 /**
  * Een Dienblad klasse
  *
@@ -34,8 +35,7 @@ public class Dienblad {
      * @param artikel - De artikel die op de dienblad terecht komt
      */
     public void voegToe(Artikel artikel) {
-        // method body omitted
-        artikel.add(artikelen);
+        artikelen.add(artikel);
     }
 
     /**
