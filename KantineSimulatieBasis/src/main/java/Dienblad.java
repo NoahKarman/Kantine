@@ -8,7 +8,7 @@ import java.util.Stack;
  * @version 15/5/2020
  */
 public class Dienblad {
-    private ArrayList<Artikel> artikelen;
+    private ArrayList<Artikel> artikelen = new ArrayList<>;
     private Artikel artikel ;
     private Persoon persoon;
     private int totalePrijs;
