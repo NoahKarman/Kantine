@@ -5,7 +5,7 @@ public class KassaRij {
     /**
      * Constructor
      */
-    private final ArrayList<Dienblad> Dienbladen;
+    private ArrayList<Dienblad> Dienbladen;
     private Dienblad klant;
 
     public KassaRij() {
@@ -34,7 +34,6 @@ public class KassaRij {
             return null;
         } else {
             Dienbladen.remove(0);
-            return Dienbladen.get(0);
         }
     }
 
