@@ -5,10 +5,10 @@ public class Kassa {
     /**
      * Constructor
      */
-    private Dienblad dienblad;
+    private Dienblad dienblad = new Dienblad;
 
     public Kassa(KassaRij kassarij) {
-        // method body omitted
+        this.dienblad = dienblad;
     }
 
     /**
@@ -19,7 +19,10 @@ public class Kassa {
      * @param klant die moet afrekenen
      */
     public void rekenAf(Dienblad klant) {
-        
+        int TotaalArtikelen = 0;
+        int TotaalPrijsKassa = 0;
+
+        Dienblad.getAantalArtikelen(klant);
 
     }
 

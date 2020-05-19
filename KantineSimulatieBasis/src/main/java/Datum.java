@@ -18,7 +18,7 @@ public class Datum {
 	 */
 
 	public Datum (int dag,int maand,int jaar){
-if (bestaatDatum(dag,maand,jaar)){
+	if (bestaatDatum(dag,maand,jaar)){
 		this.dag = dag;
 		this.maand = maand;
 		this.jaar = jaar;
@@ -138,8 +138,6 @@ if (bestaatDatum(dag,maand,jaar)){
 	public void setJaar(int jaar) {
 		this.jaar = jaar;
 	}
-
-
 
 	public String getDatumAsString() {
 		if (bestaatDatum(int dag, int maand, int jaar)) {
