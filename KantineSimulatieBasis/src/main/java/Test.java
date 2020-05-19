@@ -13,9 +13,9 @@ public class Test {
 public void week1 () {
     // Opdracht 1
     System.out.println("ARTIKELEN");
-    Artikel artikel = new Artikel("Flesje water", 1.20);
-    Artikel artikel2 = new Artikel("Flesje wijn", 3.10);
-    Artikel artikel3 = new Artikel("Flesje bier", 2.50);
+    Artikel artikel = new Artikel("cola", 1.20);
+    Artikel artikel2 = new Artikel("fanta", 3.10);
+    Artikel artikel3 = new Artikel("Optimel", 2.50);
     System.out.println(artikel.toString());
     System.out.println(artikel2.toString());
     System.out.println(artikel3.toString());
@@ -31,12 +31,12 @@ public void week1 () {
     System.out.println(test4.getDatumAsString());
     // Opdracht 3
     System.out.println("PERSONEN");
-    Persoon anouk = new Persoon(123,"Anouk","Driessen", test, 'v');
-    Persoon tim = new Persoon(321,"Tim","Brouwer", new Datum(3,7,1995), 'm');
+    Persoon anouk = new Persoon(123,"Noah","Karman", test, 'v');
+    Persoon tim = new Persoon(321,"Redouan","Klick", new Datum(3,7,1995), 'm');
     Persoon tester = new Persoon(254,"test","tester", test2, 'x');
-    System.out.println(anouk.toString());
+    System.out.println(redouan.toString());
     System.out.println();
-    System.out.println(tim.toString());
+    System.out.println(noah.toString());
     System.out.println();
     System.out.println(tester.toString());
     System.out.println();
