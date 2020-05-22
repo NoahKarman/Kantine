@@ -30,7 +30,13 @@ public class KassaRij {
      * @return Eerste klant in de rij of null
      */
     public Dienblad eerstePersoonInRij() {
-
+        if (!erIsEenRij()) {
+            return null;
+        } else {
+            Dienblad temp = dienbladen.get(0);
+            dienbladen.remove(0);
+            return temp;
+        }
     }
 
     /**

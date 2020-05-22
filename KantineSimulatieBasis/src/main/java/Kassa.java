@@ -5,10 +5,10 @@ public class Kassa {
     /**
      * Constructor
      */
-    private Dienblad dienblad = new Dienblad();
+    Dienblad dienblad = new Dienblad();
 
     public Kassa(KassaRij kassarij) {
-        this.dienblad = dienblad;
+
     }
 
     /**
@@ -22,7 +22,7 @@ public class Kassa {
         int TotaalArtikelen = 0;
         int TotaalPrijsKassa = 0;
 
-        Dienblad.getAantalArtikelen(klant);
+        dienblad.getAantalArtikelen(klant);
 
     }
 
