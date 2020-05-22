@@ -22,7 +22,10 @@ public class Kassa {
         int TotaalArtikelen = 0;
         int TotaalPrijsKassa = 0;
 
-        dienblad.getAantalArtikelen(klant);
+        double temp1 = dienblad.getAantalArtikelen();
+        double temp2 = dienblad.getTotaalPrijs();
+
+
 
     }
 

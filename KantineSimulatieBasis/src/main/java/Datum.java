@@ -112,31 +112,56 @@ public class Datum {
 	}
 
 	/**
-	 * Getter voor Sting weergave van datum
-	 *
-	 * @return Geboortedatum
+	 * Getter voor dag
+	 * @return - de dag van de datum
 	 */
 	public int getDag() {
+
 		return dag;
 	}
 
+	/**
+	 * Stel de dag van de datum in
+	 * @param dag - de dag van de datum
+	 */
 	public void setDag(int dag) {
+
 		this.dag = dag;
 	}
 
+	/**
+	 * Getter voor maand
+	 * @return - de maand van de datum
+	 */
 	public int getMaand() {
+
 		return maand;
 	}
 
+	/**
+	 * Stel de maand van de datum in
+	 * @param maand - de maand van de datum
+	 */
 	public void setMaand(int maand) {
+
 		this.maand = maand;
 	}
 
+	/**
+	 * Getter voor Jaar
+	 * @return - het jaar van de datum
+	 */
 	public int getJaar() {
+
 		return jaar;
 	}
 
+	/**
+	 *Stel het jaar van de datum in
+	 * @param jaar - het jaar van de datum
+	 */
 	public void setJaar(int jaar) {
+
 		this.jaar = jaar;
 	}
 
