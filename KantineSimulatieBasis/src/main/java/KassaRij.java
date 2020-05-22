@@ -1,16 +1,24 @@
 import java.util.ArrayList;
 
+/**
+ * Een KassaRij klasse
+ *
+ * @author Redouan Klick & Noah Karman
+ * @version 22/5/2020
+ */
 public class KassaRij {
 
-    /**
-     * Constructor
-     */
-    private ArrayList<Dienblad> dienbladen;
+    private ArrayList<Dienblad> kassarij;
     private Dienblad klant;
 
-    public KassaRij() {
-
-        this.dienbladen = new ArrayList<>();
+    /**
+     * Constructor voor de KassaRij klase
+     * @param kassarij - Een arraylist met daarin klanten
+     * @param klant -
+     */
+    public KassaRij(ArrayList<Dienblad> kassarij, Dienblad klant) {
+        this.kassarij = kassarij;
+        this.klant = klant;
     }
 
     /**
@@ -20,7 +28,7 @@ public class KassaRij {
      */
     public void sluitAchteraan(Dienblad klant) {
 
-        dienbladen.add(klant);
+        kassarij.add(klant);
     }
 
     /**
@@ -33,8 +41,8 @@ public class KassaRij {
         if (!erIsEenRij()) {
             return null;
         } else {
-            Dienblad temp = dienbladen.get(0);
-            dienbladen.remove(0);
+            Dienblad temp = kassarij.get(0);
+            kassarij.remove(0);
             return temp;
         }
     }
@@ -46,7 +54,7 @@ public class KassaRij {
      */
     public boolean erIsEenRij() {
 
-        if (dienbladen.isEmpty()) {
+        if (kassarij.isEmpty()) {
             return false;
         } else {
             return true;

@@ -25,10 +25,10 @@ public class Persoon {
      */
     public Persoon(long BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
         this.BSN = BSN;
-        voornaam = voornaam;
-        achternaam = achternaam;
-        geboortedatum = geboortedatum;
-        geslacht = geslacht;
+        this.voornaam = voornaam;
+        this.achternaam = achternaam;
+        this.geboortedatum = geboortedatum;
+        this.geslacht = geslacht;
     }
 
     public Persoon() {
