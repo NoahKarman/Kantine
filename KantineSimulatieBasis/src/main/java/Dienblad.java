@@ -1,4 +1,3 @@
-package main.java;
 
 import main.java.Artikel;
 import main.java.Persoon;
