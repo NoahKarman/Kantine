@@ -5,12 +5,12 @@ public class KassaRij {
     /**
      * Constructor
      */
-    private ArrayList<Dienblad> Dienbladen;
+    private ArrayList<Dienblad> dienbladen;
     private Dienblad klant;
 
     public KassaRij() {
 
-        this.Dienbladen = new ArrayList<>();
+        this.dienbladen = new ArrayList<>();
     }
 
     /**
@@ -20,7 +20,7 @@ public class KassaRij {
      */
     public void sluitAchteraan(Dienblad klant) {
 
-        Dienbladen.add(klant);
+        dienbladen.add(klant);
     }
 
     /**
@@ -30,11 +30,7 @@ public class KassaRij {
      * @return Eerste klant in de rij of null
      */
     public Dienblad eerstePersoonInRij() {
-        if (!erIsEenRij()) {
-            return null;
-        } else {
-            Dienbladen.remove(0);
-        }
+
     }
 
     /**
@@ -44,7 +40,7 @@ public class KassaRij {
      */
     public boolean erIsEenRij() {
 
-        if (Dienbladen.isEmpty()) {
+        if (dienbladen.isEmpty()) {
             return false;
         } else {
             return true;

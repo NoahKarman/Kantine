@@ -8,7 +8,7 @@
 public class Artikel {
 
     private String naam;
-    private double prijs;
+    private int prijs;
 
     /**
      * Artikel constructor
@@ -17,7 +17,7 @@ public class Artikel {
      * @param prijs De prijs van het artikel
      */
 
-    public Artikel (String naam, double prijs) {
+    public Artikel (String naam, int prijs) {
 
         this.naam = naam;
         this.prijs = prijs;
@@ -31,8 +31,8 @@ public class Artikel {
 
     public Artikel () {
 
-        naam = "";
-        prijs = 0.00;
+        String naam = "";
+        int prijs = 0;
     }
 
     /**
@@ -51,7 +51,7 @@ public class Artikel {
      * @param prijs - de prijs van het artikel
      */
 
-    public void setPrijs(double prijs) {
+    public void setPrijs(int prijs) {
         this.prijs = prijs;
     }
 

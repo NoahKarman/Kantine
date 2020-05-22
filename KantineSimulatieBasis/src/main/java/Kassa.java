@@ -5,7 +5,7 @@ public class Kassa {
     /**
      * Constructor
      */
-    private Dienblad dienblad = new Dienblad;
+    private Dienblad dienblad = new Dienblad();
 
     public Kassa(KassaRij kassarij) {
         this.dienblad = dienblad;

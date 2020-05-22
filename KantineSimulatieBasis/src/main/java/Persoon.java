@@ -8,11 +8,11 @@
 
 public class Persoon {
     
-    private int BSN;
-    private String Voornaam;
-    private String Achternaam;
-    private String Geboortedatum;
-    private char Geslacht;
+    private long BSN;
+    private String voornaam;
+    private String achternaam;
+    private String geboortedatum;
+    private char geslacht;
 
     /**
      * Constructor voor de klasse Persoon
@@ -23,28 +23,27 @@ public class Persoon {
      * @param geboortedatum - de geboortedatum van de persoon
      * @param geslacht - het geslacht van de persoon
      */
-
-    public Persoon(int BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
+    public Persoon(long BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
         this.BSN = BSN;
-        Voornaam = voornaam;
-        Achternaam = achternaam;
-        Geboortedatum = geboortedatum;
-        Geslacht = geslacht;
+        voornaam = voornaam;
+        achternaam = achternaam;
+        geboortedatum = geboortedatum;
+        geslacht = geslacht;
     }
 
     public Persoon() {
         this.BSN = 0;
-        Voornaam = "";
-        Achternaam = "";
-        Geboortedatum = "dd/mm/jj";
-        Geslacht = 'O';
+        voornaam = "";
+        achternaam = "";
+        geboortedatum = "dd/mm/jj";
+        geslacht = 'O';
     }
 
     /**
      * Stel de BSN van de persoon in
      * @param BSN - De BSN van de persoon
      */
-    public void setBSN(int BSN) {
+    public void setBSN(long BSN) {
 
         this.BSN = BSN;
     } 
@@ -55,7 +54,7 @@ public class Persoon {
      */
     public void setVoornaam (String Voornaam) {
 
-        this.Voornaam = Voornaam;
+        this.voornaam = Voornaam;
     }
 
     /**
@@ -64,7 +63,7 @@ public class Persoon {
      */
     public void setAchternaam (String Achternaam) {
 
-        this.Achternaam = Achternaam;
+        this.achternaam = Achternaam;
     }
 
     /**
@@ -73,7 +72,7 @@ public class Persoon {
      */
     public void setGeboortedatum (String Geboortedatum) {
 
-        this.Geboortedatum = Geboortedatum;
+        this.geboortedatum = Geboortedatum;
     }
 
     /**
@@ -83,15 +82,15 @@ public class Persoon {
     public void setGeslacht (char Geslacht) {
 
         if (Geslacht == ('M'|'V')) {
-            this.Geslacht = Geslacht;
-        } else this.Geslacht = 'O';
+            this.geslacht = Geslacht;
+        } else this.geslacht = 'O';
     }
 
     /**
      * Getter voor BSN
      * @return BSN
      */
-    public int getBSN() {
+    public long getBSN() {
         return BSN;
     }
 
@@ -100,7 +99,7 @@ public class Persoon {
      * @return Voornaam
      */
     public String getVoornaam() {
-        return Voornaam;
+        return voornaam;
     }
 
     /**
@@ -108,7 +107,7 @@ public class Persoon {
      * @return Achternaam
      */
     public String getAchternaam() {
-        return Achternaam;
+        return achternaam;
     }
 
     /**
@@ -116,7 +115,7 @@ public class Persoon {
      * @return Geboortedatum
      */
     public String getGeboortedatum() {
-        return Geboortedatum;
+        return geboortedatum;
     }
 
     /**
@@ -125,9 +124,9 @@ public class Persoon {
      */
     public String getGeslacht() {
 
-        if (Geslacht == 'M') {
+        if (geslacht == 'M') {
             return "Man";
-        } else if (Geslacht == 'V') {
+        } else if (geslacht == 'V') {
             return "Vrouw";
         } else {
             return "Onbekend";
