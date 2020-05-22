@@ -1,5 +1,3 @@
-package main.java;
-
 import java.util.ArrayList;
 
 /**
@@ -10,9 +8,7 @@ import java.util.ArrayList;
  */
 public class KassaRij {
 
-
     private ArrayList<Dienblad> kassarij;
-
 
 
     /**
