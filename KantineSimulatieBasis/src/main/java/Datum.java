@@ -16,9 +16,8 @@ public class Datum {
 	 * @param maand - Maand van het jaar
 	 * @param jaar - Jaar getaal tussen 1900 - 2100
 	 */
-
 	public Datum (int dag,int maand,int jaar){
-if (bestaatDatum(dag,maand,jaar)){
+	if (bestaatDatum(dag,maand,jaar)){
 		this.dag = dag;
 		this.maand = maand;
 		this.jaar = jaar;
@@ -139,12 +138,8 @@ if (bestaatDatum(dag,maand,jaar)){
 		this.jaar = jaar;
 	}
 
-
-
 	public String getDatumAsString() {
-		if (bestaatDatum(int dag, int maand, int jaar)) {
-			return dag + "" + maand + "" + jaar;
-		}
+		
 
 	}
 
