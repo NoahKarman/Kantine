@@ -1,7 +1,7 @@
 package main.java;
 
 /**
- * Een Datum klasse
+ * Een main.java.Datum klasse
  *
  * @author Redouan Klick & Noah Karman
  * @version 15/5/2020
@@ -170,7 +170,7 @@ public class Datum {
 
 	}
 	public String setDatumAsString(){
-		System.out.println("De Datum is" + dag +"." + maand + "." + jaar);
+		System.out.println("De main.java.Datum is" + dag +"." + maand + "." + jaar);
 		return null;
 	}
 
