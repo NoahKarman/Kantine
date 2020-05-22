@@ -16,7 +16,12 @@ public class KassaRij {
      * @param kassarij - Een arraylist met daarin klanten
      */
     public KassaRij(ArrayList<Dienblad> kassarij) {
+
         this.kassarij = kassarij;
+    }
+
+    public KassaRij() {
+
     }
 
     /**

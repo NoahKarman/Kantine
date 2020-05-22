@@ -54,6 +54,7 @@ public class Artikel {
      */
 
     public void setPrijs(int prijs) {
+
         this.prijs = prijs;
     }
 
