@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * Een Artikel klasse
  *
@@ -31,8 +33,8 @@ public class Artikel {
 
     public Artikel () {
 
-        String naam = "";
-        int prijs = 0;
+        String naam = getNaam();
+        int prijs = getPrijs();
     }
 
     /**
@@ -61,7 +63,7 @@ public class Artikel {
      * @return - prijs de prijs van het artikel
      */
 
-    public double getPrijs() {
+    public int getPrijs() {
         return prijs;
     }
 

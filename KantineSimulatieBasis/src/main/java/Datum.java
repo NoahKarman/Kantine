@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * Een Datum klasse
  *
@@ -29,9 +31,9 @@ public class Datum {
 
 
 	public Datum (){
-		this.dag = 0;
-		this.maand = 0;
-		this.jaar = 0;
+		this.dag = getDag();
+		this.maand = getMaand();
+		this.jaar = getJaar();
 	}
 
 	/**
@@ -139,8 +141,12 @@ public class Datum {
 	}
 
 	public String getDatumAsString() {
-		
+        return setDatumAsString();
 
+	}
+	public String setDatumAsString(){
+		System.out.println("De Datum is" + dag +"." + maand + "." + jaar);
+		return null;
 	}
 
 	
