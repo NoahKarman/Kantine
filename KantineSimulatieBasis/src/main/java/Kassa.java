@@ -1,3 +1,7 @@
+package main.java;
+
+import main.java.Dienblad;
+
 import java.util.Iterator;
 
 public class Kassa {
