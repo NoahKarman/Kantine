@@ -9,16 +9,14 @@ import java.util.ArrayList;
 public class KassaRij {
 
     private ArrayList<Dienblad> kassarij;
-    private Dienblad klant;
+
 
     /**
      * Constructor voor de KassaRij klase
      * @param kassarij - Een arraylist met daarin klanten
-     * @param klant -
      */
-    public KassaRij(ArrayList<Dienblad> kassarij, Dienblad klant) {
+    public KassaRij(ArrayList<Dienblad> kassarij) {
         this.kassarij = kassarij;
-        this.klant = klant;
     }
 
     /**

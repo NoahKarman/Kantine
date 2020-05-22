@@ -7,6 +7,7 @@ public class Kassa {
      */
     Dienblad dienblad = new Dienblad();
 
+
     public Kassa(KassaRij kassarij) {
 
     }
