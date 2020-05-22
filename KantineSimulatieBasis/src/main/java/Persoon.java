@@ -5,7 +5,6 @@
  * @version 15/5/2020
  * 
  */
-
 public class Persoon {
     
     private int BSN;
@@ -23,7 +22,6 @@ public class Persoon {
      * @param geboortedatum - de geboortedatum van de persoon
      * @param geslacht - het geslacht van de persoon
      */
-
     public Persoon(int BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
         this.BSN = BSN;
         Voornaam = voornaam;

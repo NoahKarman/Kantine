@@ -42,8 +42,8 @@ public void week1 () {
     System.out.println();
 // Opdracht 4
     System.out.println("DIENBLAD");
-    Dienblad klant = new Dienblad(anouk);
-    Dienblad klant2 = new Dienblad(tim);
+    Dienblad klant = new Dienblad();
+    Dienblad klant2 = new Dienblad();
     klant.voegToe(artikel);
     klant.voegToe(artikel2);
     klant2.voegToe(artikel3);
