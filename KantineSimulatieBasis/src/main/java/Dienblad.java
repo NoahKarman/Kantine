@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * @version 15/5/2020
  */
 public class Dienblad {
-    private ArrayList<Artikel> artikelen = new ArrayList<>();
+    private ArrayList<Artikel>artikelen;
     private Artikel artikel ;
     private Persoon persoon;
     private int totalePrijs;
@@ -25,6 +25,7 @@ public class Dienblad {
     public Dienblad() {
 
         totalePrijs = 0;
+        artikelen = new ArrayList<>();
     }
     /**
      * Constructor

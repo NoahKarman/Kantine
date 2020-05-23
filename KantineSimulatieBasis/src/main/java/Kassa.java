@@ -5,14 +5,17 @@ public class Kassa {
 
     KassaRij kassarij = new KassaRij();
     Dienblad dienblad = new Dienblad();
-    private int aantalartikelen;
-    private int totaalgeld;
+    Artikel artikel = new Artikel();
+
 
     /**
      * Constructor
      */
     public Kassa(KassaRij kassarij) {
-ArrayList <artikel> artikelen
+
+        this.kassarij = kassarij;
+
+
     }
 
     /**
@@ -24,6 +27,9 @@ ArrayList <artikel> artikelen
      */
     public void rekenAf(Dienblad klant) {
 
+
+        aantalArtikelen();
+        hoeveelheidGeldInKassa();
 
 
 
@@ -37,7 +43,7 @@ ArrayList <artikel> artikelen
      * @return aantal artikelen
      */
     public int aantalArtikelen() {
-        // method body omitted
+        return Dienblad.getAantalArtikelen();
     }
 
     /**
@@ -47,7 +53,7 @@ ArrayList <artikel> artikelen
      * @return hoeveelheid geld in de kassa
      */
     public double hoeveelheidGeldInKassa() {
-        // method body omitted
+        return Dienblad.getTotaalPrijs();
     }
 
     /**
