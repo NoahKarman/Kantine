@@ -1,9 +1,11 @@
+package main.java;
 import java.util.ArrayList;
 
 /**
  * Een KassaRij klasse
  *
  * @author Redouan Klick & Noah Karman
+
  * @version 22/5/2020
  */
 public class KassaRij {

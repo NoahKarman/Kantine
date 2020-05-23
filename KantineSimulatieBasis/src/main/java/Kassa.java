@@ -1,3 +1,4 @@
+package main.java;
 import java.util.Iterator;
 
 public class Kassa {
@@ -11,7 +12,7 @@ public class Kassa {
      * Constructor
      */
     public Kassa(KassaRij kassarij) {
-
+ArrayList <artikel> artikelen
     }
 
     /**
