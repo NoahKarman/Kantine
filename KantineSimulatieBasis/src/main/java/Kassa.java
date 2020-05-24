@@ -1,21 +1,20 @@
-package main.java;
 import java.util.Iterator;
+import java.util.ArrayList;
 
 public class Kassa {
 
-    KassaRij kassarij = new KassaRij();
-    Dienblad dienblad = new Dienblad();
-    Artikel artikel = new Artikel();
+    private Dienblad dienblad;
+    private Artikel artikel;
+    private int totaalArtikelen;
+    private int totaalPrijs;
 
-
-    /**
-     * Constructor
-     */
     public Kassa(KassaRij kassarij) {
 
-        this.kassarij = kassarij;
+    }
 
-
+    public Kassa(int controleTotalenArtikelen, int controleTotalenGeld) {
+        this.totaalArtikelen = controleTotalenArtikelen;
+        this.totaalPrijs = controleTotalenGeld;
     }
 
     /**
@@ -23,18 +22,23 @@ public class Kassa {
      * die voor de kassa worden bijgehouden. De implementatie wordt later vervangen door een echte
      * betaling door de persoon.
      *
-     * @param klant die moet afrekenen
+     * @param klant - de klant die afrekent.
+
+     *
      */
     public void rekenAf(Dienblad klant) {
 
+        int i;
+        int totaalAantalDienblad = klant.artikelen.size();
+        int totaalPrijsDienblad = klant.getTotaalPrijs();
 
-        aantalArtikelen();
-        hoeveelheidGeldInKassa();
-
-
-
+        for (i = 0; i < totaalAantalDienblad; i++) {
+            this.totaalArtikelen += totaalAantalDienblad;
+        }
+        this.totaalPrijs += dienblad.getTotaalPrijs();
 
     }
+
 
     /**
      * Geeft het aantal artikelen dat de kassa heeft gepasseerd, vanaf het moment dat de methode
@@ -43,25 +47,27 @@ public class Kassa {
      * @return aantal artikelen
      */
     public int aantalArtikelen() {
-        return Dienblad.getAantalArtikelen();
+        return this.totaalArtikelen;
+
     }
 
     /**
-     * Geeft het totaalbedrag van alle artikelen die de kass zijn gepasseerd, vanaf het moment dat
+     * Geeft het totaalbedrag van alle artikelen die de kassa zijn gepasseerd, vanaf het moment dat
      * de methode resetKassa is aangeroepen.
      *
      * @return hoeveelheid geld in de kassa
      */
-    public double hoeveelheidGeldInKassa() {
-        return Dienblad.getTotaalPrijs();
+    public int hoeveelGeldInKassa() {
+
+        return this.totaalPrijs;
     }
 
     /**
      * reset de waarden van het aantal gepasseerde artikelen en de totale hoeveelheid geld in de
      * kassa.
      */
-    public void resetKassa() {
-        this.aantalartikelen = 0;
-        this.totaalgeld = 0;
+    public void resetWaarden() {
+        this.totaalArtikelen = 0;
+        this.totaalPrijs = 0;
     }
 }

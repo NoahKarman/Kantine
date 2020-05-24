@@ -1,7 +1,4 @@
-package main.java;
-import main.java.Artikel;
 import main.java.Persoon;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
@@ -13,10 +10,10 @@ import java.util.ArrayList;
  * @version 15/5/2020
  */
 public class Dienblad {
-    private ArrayList<Artikel>artikelen;
-    private Artikel artikel ;
+    public ArrayList<Artikel> artikelen;
+    private Artikel artikel;
     private Persoon persoon;
-    private int totalePrijs;
+    private int totaalPrijs;
     private Persoon klant;
 
     /**
@@ -24,7 +21,7 @@ public class Dienblad {
      */
     public Dienblad() {
 
-        totalePrijs = 0;
+        totaalPrijs = 0;
         artikelen = new ArrayList<>();
     }
     /**
@@ -33,7 +30,7 @@ public class Dienblad {
      * @param klant - Het persoon die het dienblad afrekent
      */
     public Dienblad(int totalePrijs ,Persoon klant ){
-        this.totalePrijs = totalePrijs;
+        this.totaalPrijs = totalePrijs;
         this.klant = klant;
     }
 
@@ -62,8 +59,8 @@ public class Dienblad {
      *
      * @return De totaalprijs
      */
-    public double getTotaalPrijs() {
-        double totaalprijs = 0;
+    public int getTotaalPrijs() {
+        int totaalprijs = 0;
 
         for (Artikel artikel : artikelen) {
             totaalprijs += artikel.getPrijs();
