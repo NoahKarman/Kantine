@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62434ec1-31dc-4547-be96-0337377bfb77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Artikel.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Artikel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Dienblad.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Dienblad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kantine.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kantine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kassa.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kassa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KassaRij.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KassaRij.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c2H8HZebeDndkKkvp0yLscDept" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Test" />
+      <module name="Kantine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62434ec1-31dc-4547-be96-0337377bfb77" name="Default Changelist" comment="" />
+      <created>1589719606930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589719606930</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="0" key="#Project_Structure" timestamp="1589793728468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="273" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589793728468" />
+    <state x="551" y="307" width="462" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590158233568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="462" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590158233568" />
+    <state x="469" y="122" key="FileChooserDialogImpl" timestamp="1589793726378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="469" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589793726378" />
+    <state x="273" y="0" key="SettingsEditor" timestamp="1589793760817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="273" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589793760817" />
+  </component>
+</project>
