@@ -1,14 +1,15 @@
+
 /**
  * Een Artikel klasse
  *
- * @author noahk
+ * @author Noah Karman & Redouan Klick
  * @version 15/5/2020
  */
 
 public class Artikel {
 
     private String naam;
-    private double prijs;
+    private int prijs;
 
     /**
      * Artikel constructor
@@ -17,7 +18,7 @@ public class Artikel {
      * @param prijs De prijs van het artikel
      */
 
-    public Artikel (String naam, double prijs) {
+    public Artikel (String naam, int prijs) {
 
         this.naam = naam;
         this.prijs = prijs;
@@ -31,7 +32,8 @@ public class Artikel {
 
     public Artikel () {
 
-        System.out.println("Constructor called");
+        String naam = getNaam();
+        int prijs = getPrijs();
     }
 
     /**
@@ -50,7 +52,8 @@ public class Artikel {
      * @param prijs - de prijs van het artikel
      */
 
-    public void setPrijs(double prijs) {
+    public void setPrijs(int prijs) {
+
         this.prijs = prijs;
     }
 
@@ -60,7 +63,7 @@ public class Artikel {
      * @return - prijs de prijs van het artikel
      */
 
-    public double getPrijs() {
+    public int getPrijs() {
         return prijs;
     }
 
