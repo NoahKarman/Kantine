@@ -1,3 +1,4 @@
+package main.java;
 import java.util.Iterator;
 import java.util.ArrayList;
 
@@ -35,7 +36,7 @@ public class Kassa {
         for (i = 0; i < totaalAantalDienblad; i++) {
             this.totaalArtikelen += totaalAantalDienblad;
         }
-        this.totaalPrijs += dienblad.getTotaalPrijs();
+        this.totaalPrijs += totaalPrijsDienblad;
 
     }
 
