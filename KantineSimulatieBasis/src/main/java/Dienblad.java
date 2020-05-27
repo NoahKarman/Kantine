@@ -43,6 +43,7 @@ public class Dienblad {
     public void voegToe(Artikel artikel) {
 
         artikelen.add(artikel);
+
     }
 
     /**

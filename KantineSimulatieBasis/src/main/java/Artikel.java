@@ -1,4 +1,4 @@
-
+package main.java;
 /**
  * Een Artikel klasse
  *
@@ -10,6 +10,7 @@ public class Artikel {
 
     private String naam;
     private int prijs;
+
 
     /**
      * Artikel constructor

@@ -48,6 +48,7 @@ public class Kassa {
      * @return aantal artikelen
      */
     public int aantalArtikelen() {
+
         return this.totaalArtikelen;
 
     }

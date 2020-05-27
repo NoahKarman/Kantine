@@ -5,16 +5,25 @@ public class Biblio {
     private Dienblad dienblad;
 
 
+
     public Biblio (){
 
+
     }
 
-    public static void createItems (){
+    public static void createArtikelen (){
+
         Artikel artikel = new Artikel("Kaasbroodje" , 595);
-        Artikel artikel = new Artikel("Optimel" , 300);
-        Artikel artikel = new Artikel("Appel" , 225);
-        Artikel artikel = new Artikel("Frikandel" , 685);
-        Artikel artikel = new Artikel("Kauwgum" , 540);
-        Artikel artikel = new Artikel("Pakje chips" , 250);
+        Artikel artikel2 = new Artikel("Optimel" , 300);
+        Artikel artikel3 = new Artikel("Appel" , 225);
+        Artikel artikel4 = new Artikel("Frikandel" , 685);
+        Artikel artikel5 = new Artikel("Kauwgum" , 540);
+        Artikel artikel6 = new Artikel("Pakje chips" , 250);
+
     }
+
+
+
+
+
 }

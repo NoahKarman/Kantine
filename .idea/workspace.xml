@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62434ec1-31dc-4547-be96-0337377bfb77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Biblio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Artikel.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Artikel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Biblio.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Biblio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Dienblad.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Dienblad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kantine.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kantine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KantineSimulatie_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KantineSimulatie_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kassa.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/Kassa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KassaRij.java" beforeDir="false" afterPath="$PROJECT_DIR$/KantineSimulatieBasis/src/main/java/KassaRij.java" afterDir="false" />
     </list>
