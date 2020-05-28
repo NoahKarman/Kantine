@@ -35,8 +35,7 @@ public class Kassa {
         for (i = 0; i < totaalAantalDienblad; i++) {
             this.totaalArtikelen += totaalAantalDienblad;
         }
-        this.totaalPrijs += dienblad.getTotaalPrijs();
-
+            this.totaalPrijs += totaalPrijsDienblad;
     }
 
 
