@@ -1,5 +1,4 @@
 package main.java;
-
 public class Kantine {
 
     private Kassa kassa;
@@ -33,12 +32,11 @@ public class Kantine {
      * Deze methode handelt de rij voor de kassa af.
      */
     public void verwerkRijVoorKassa() {
-        int i=1;
-        while (i>0) {
-            kassarij.eerstePersoonInRij();
-            i++;
-
+        while (!kassarij.erIsEenRij()) {
+            Kassa.rekenAf();
         }
+
+
     }
 
     /**

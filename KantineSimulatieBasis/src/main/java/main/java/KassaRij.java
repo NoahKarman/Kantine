@@ -44,7 +44,7 @@ public class KassaRij {
      * @return Eerste klant in de rij of null
      */
     public Dienblad eerstePersoonInRij() {
-        if (!erIsEenRij()) {
+        if (erIsEenRij()) {
             return null;
         } else {
             Dienblad temp = kassarij.get(0);
@@ -60,6 +60,6 @@ public class KassaRij {
      */
     public boolean erIsEenRij() {
 
-        return !kassarij.isEmpty();
+        return kassarij.isEmpty();
     }
 }
