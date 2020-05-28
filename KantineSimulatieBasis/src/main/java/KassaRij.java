@@ -60,10 +60,6 @@ public class KassaRij {
      */
     public boolean erIsEenRij() {
 
-        if (kassarij.isEmpty()) {
-            return false;
-        } else {
-            return true;
-        }
+        return !kassarij.isEmpty();
     }
 }

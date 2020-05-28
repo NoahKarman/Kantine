@@ -12,7 +12,7 @@ public class Persoon {
     private long BSN;
     private String voornaam;
     private String achternaam;
-    private String geboortedatum;
+    private Datum geboortedatum;
     private char geslacht;
 
     /**
@@ -26,7 +26,7 @@ public class Persoon {
      */
 
 
-    public Persoon(long BSN, String voornaam, String achternaam, String geboortedatum, char geslacht) {
+    public Persoon(long BSN, String voornaam, String achternaam, Datum geboortedatum, char geslacht) {
 
         this.BSN = BSN;
         this.voornaam = voornaam;
@@ -39,7 +39,7 @@ public class Persoon {
         this.BSN = 0;
         voornaam = "";
         achternaam = "";
-        geboortedatum = "dd/mm/jj";
+        geboortedatum = null;
         geslacht = 'O';
     }
 
@@ -74,7 +74,7 @@ public class Persoon {
      * Stel de geboortedatum van de persoon in
      *@param Geboortedatum - De geboortedatum van de persoon 
      */
-    public void setGeboortedatum (String Geboortedatum) {
+    public void setGeboortedatum (Datum Geboortedatum) {
 
         this.geboortedatum = Geboortedatum;
     }
@@ -118,7 +118,7 @@ public class Persoon {
      * Getter voor Geboortedatum
      * @return Geboortedatum
      */
-    public String getGeboortedatum() {
+    public Datum getGeboortedatum() {
         return geboortedatum;
     }
 

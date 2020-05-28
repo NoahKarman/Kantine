@@ -29,15 +29,10 @@ public class Kassa {
      */
     public void rekenAf(Dienblad klant) {
 
-        int i;
-        int totaalAantalDienblad = klant.artikelen.size();
-        int totaalPrijsDienblad = klant.getTotaalPrijs();
+        this.totaalArtikelen += klant.artikelen.size();
+        this.totaalPrijs += klant.getTotaalPrijs();
 
-        for (i = 0; i < totaalAantalDienblad; i++) {
-            this.totaalArtikelen += totaalAantalDienblad;
-        }
 
-            this.totaalPrijs += totaalPrijsDienblad;
 
     }
 
