@@ -62,11 +62,11 @@ public class Dienblad {
      * @return De totaalprijs
      */
     public int getTotaalPrijs() {
-        int totaalprijs = 0;
+        this.totaalPrijs = 0;
 
         for (Artikel artikel : artikelen) {
             totaalprijs += artikel.getPrijs();
-        } return totaalprijs;
+        } return this.totaalPrijs;
     }
 }
 
