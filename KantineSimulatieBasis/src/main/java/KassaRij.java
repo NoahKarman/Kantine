@@ -1,4 +1,4 @@
-
+package main.java;
 import java.util.ArrayList;
 
 /**
@@ -32,9 +32,9 @@ public class KassaRij {
      *
      * @param klant - Een klant
      */
-    public void sluitAchteraan(Dienblad klant) {
+    public void sluitAchteraan(Persoon klant,Dienblad dienblad) {
 
-        kassarij.add(klant);
+        kassarij.add(dienblad);
     }
 
     /**
