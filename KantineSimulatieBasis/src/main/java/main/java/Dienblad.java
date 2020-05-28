@@ -1,4 +1,5 @@
 package main.java;
+import main.java.Artikel;
 import main.java.Persoon;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -62,10 +63,9 @@ public class Dienblad {
      * @return De totaalprijs
      */
     public int getTotaalPrijs() {
-        this.totaalPrijs = 0;
 
         for (Artikel artikel : artikelen) {
-            totaalprijs += artikel.getPrijs();
+            this.totaalPrijs += artikel.getPrijs();
         } return this.totaalPrijs;
     }
 }

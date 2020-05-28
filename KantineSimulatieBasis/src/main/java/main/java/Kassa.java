@@ -31,9 +31,6 @@ public class Kassa {
 
         this.totaalArtikelen += klant.artikelen.size();
         this.totaalPrijs += klant.getTotaalPrijs();
-
-
-
     }
 
 

@@ -1,4 +1,5 @@
 package main.java;
+
 public class Kantine {
 
     private Kassa kassa;
