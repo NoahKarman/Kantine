@@ -1,3 +1,3 @@
 # ITVP19DAV1A
 
-Projekt KantineSimulatie SE/NSE
+Projekt main.java.KantineSimulatie SE/NSE

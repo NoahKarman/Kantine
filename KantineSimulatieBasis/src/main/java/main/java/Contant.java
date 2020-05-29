@@ -1,3 +1,5 @@
+package main.java;
+
 public class Contant extends Betaalwijze {
     /**
      * Methode om betaling af te handelen

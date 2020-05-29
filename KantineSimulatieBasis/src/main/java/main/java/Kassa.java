@@ -1,12 +1,21 @@
+package main.java;
 import java.util.Iterator;
+import java.util.ArrayList;
 
 public class Kassa {
 
-    /**
-     * Constructor
-     */
+    private Dienblad dienblad;
+    private Artikel artikel;
+    private int totaalArtikelen;
+    private int totaalPrijs;
+
     public Kassa(KassaRij kassarij) {
-        // method body omitted
+
+    }
+
+    public Kassa(int controleTotalenArtikelen, int controleTotalenGeld) {
+        this.totaalArtikelen = controleTotalenArtikelen;
+        this.totaalPrijs = controleTotalenGeld;
     }
 
     /**
@@ -14,11 +23,16 @@ public class Kassa {
      * die voor de kassa worden bijgehouden. De implementatie wordt later vervangen door een echte
      * betaling door de persoon.
      *
-     * @param klant die moet afrekenen
+     * @param klant - de klant die afrekent.
+
+     *
      */
     public void rekenAf(Dienblad klant) {
-        // method body omitted
+
+        this.totaalArtikelen += klant.artikelen.size();
+        this.totaalPrijs += klant.getTotaalPrijs();
     }
+
 
     /**
      * Geeft het aantal artikelen dat de kassa heeft gepasseerd, vanaf het moment dat de methode
@@ -27,24 +41,28 @@ public class Kassa {
      * @return aantal artikelen
      */
     public int aantalArtikelen() {
-        // method body omitted
+
+        return this.totaalArtikelen;
+
     }
 
     /**
-     * Geeft het totaalbedrag van alle artikelen die de kass zijn gepasseerd, vanaf het moment dat
+     * Geeft het totaalbedrag van alle artikelen die de kassa zijn gepasseerd, vanaf het moment dat
      * de methode resetKassa is aangeroepen.
      *
      * @return hoeveelheid geld in de kassa
      */
-    public double hoeveelheidGeldInKassa() {
-        // method body omitted
+    public int hoeveelGeldInKassa() {
+
+        return this.totaalPrijs;
     }
 
     /**
      * reset de waarden van het aantal gepasseerde artikelen en de totale hoeveelheid geld in de
      * kassa.
      */
-    public void resetKassa() {
-        // method body omitted
+    public void resetWaarden() {
+        this.totaalArtikelen = 0;
+        this.totaalPrijs = 0;
     }
 }

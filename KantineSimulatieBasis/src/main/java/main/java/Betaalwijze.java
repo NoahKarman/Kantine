@@ -1,3 +1,5 @@
+package main.java;
+
 public abstract class Betaalwijze {
 
     protected double saldo;

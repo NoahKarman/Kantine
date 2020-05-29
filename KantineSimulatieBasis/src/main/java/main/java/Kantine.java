@@ -1,7 +1,9 @@
+package main.java;
 public class Kantine {
 
     private Kassa kassa;
     private KassaRij kassarij;
+
 
     /**
      * Constructor
@@ -16,17 +18,25 @@ public class Kantine {
      * Artikelen aan en plaats deze op het dienblad. Tenslotte sluit de Persoon zich aan bij de rij
      * voor de kassa.
      */
-    public void loopPakSluitAan() {
-        // method body omitted
+    public void loopPakSluitAan(Persoon klant) {
+        Dienblad dienblad = new Dienblad(0,klant);
+        Artikel artikel = new Artikel("Kaasbroodje" , 595);
+        Artikel artikel2 = new Artikel("Optimel" , 300);
+        dienblad.voegToe(artikel);
+        dienblad.voegToe(artikel2);
+        kassarij.sluitAchteraan(klant,dienblad);
+
     }
 
     /**
      * Deze methode handelt de rij voor de kassa af.
      */
     public void verwerkRijVoorKassa() {
-        while () {
-            // omitted
+        while (!kassarij.erIsEenRij()) {
+            Kassa.rekenAf();
         }
+
+
     }
 
     /**
@@ -52,6 +62,6 @@ public class Kantine {
      * de kassa.
      */
     public void resetKassa() {
-        // method body omitted
+        kassa.resetWaarden();
     }
 }
